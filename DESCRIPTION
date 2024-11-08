@@ -1,0 +1,21 @@
+Package: linearityCheck
+Title: Linear Regression Model Plot With Extracted R-squared and P-value
+Version: 0.1.0
+Authors@R: 
+    person("Alex", "Pieters", , "pieters1@student.ubc.ca", role = c("aut", "cre"))
+Description: The linearityCheck package displays the linear relationship between two variables,
+  and computes the R-squared and p-value of the fit. The package includes the linearity_check function which plots two variables against each other, 
+  overlays the linear fit, and displays the regression R-squared value on the ggplot. The linear regression model uses lm() with y ~ x.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+  ggplot2,
+  dplyr,
+  broom,
+  stats
+Suggests: 
+    datateachr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
